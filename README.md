@@ -7,11 +7,12 @@ If the new directory does not belong to the current user home, give it the right
 sudo mkdir -p /usr/local/jenkins-service
 sudo chown jenkins /usr/local/jenkins-service
 ```
-# Move the agent.jar file that you downloaded earlier with the curl command to this directory.
+Move the agent.jar file that you downloaded earlier with the curl command to this directory.
 ```
 mv agent.jar /usr/local/jenkins-service
-Now (in /usr/local/jenkins-service) create a start-agent.sh file with the Jenkins java command we’ve seen earlier as the file’s content.
 ```
+Now (in **/usr/local/jenkins-service**) create a **start-agent.sh** file with the Jenkins java command we’ve seen earlier as the file’s content.
+
 ```
 #!/bin/bash
 cd /usr/local/jenkins-service
