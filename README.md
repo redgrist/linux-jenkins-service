@@ -1,7 +1,8 @@
 # linux-jenkins-service
 
 # Run your Jenkins agent as a service
-Create a directory called jenkins or jenkins-service in your home directory or anywhere else where you have access, for example **/usr/local/jenkins-service**. If the new directory does not belong to the current user home, give it the right owner and group after creation. For me, it would look like the following:
+Create a directory called jenkins or jenkins-service in your home directory or anywhere else where you have access, for example **/usr/local/jenkins-service**. 
+If the new directory does not belong to the current user home, give it the right owner and group after creation. For me, it would look like the following:
 ```
 sudo mkdir -p /usr/local/jenkins-service
 sudo chown jenkins /usr/local/jenkins-service
